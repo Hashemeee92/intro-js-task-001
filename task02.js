@@ -5,4 +5,5 @@ var phy=35.45;
 var ban=99.50;
 var totalMarks=math+bio+chem+phy+ban;
 var average=totalMarks/5;
-console.log(average);
+
+console.log(average.toFixed(2));
